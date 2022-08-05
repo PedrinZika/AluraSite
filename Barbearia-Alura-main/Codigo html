@@ -11,7 +11,9 @@
     em strong {color: red}
     
     #missao {font-size: 20px;}
-   
+      
+    #banner {}
+
 
      </style>
 
@@ -21,7 +23,7 @@
  
   <body>
   
-  <img src="">
+  <img id="banner" src="banner.jpg">
 
 	
 	<h1 style="text-align: center;background: #CCCCCC;">Sobre a Barbearia Alura</h1>
