@@ -8,7 +8,9 @@
 
        body 
 
-    .principal {background: #CCCCCC}
+    .principal {background: #CCCCCC; padding: 30px;}
+
+    .tiutlo-centralizado {text-align: center;}
 
     em strong {color: red}
     
@@ -18,9 +20,14 @@
 
     .itens {font-style: italic;}
     
-    .Beneficios {background: #FFFFFF;}
+    .Beneficios {background: #FFFFFF; padding: 20px;}
 
-    h2 {text-align: center;}
+    .imagembeneficios {width: 50%;}
+
+    ul {display: inline-block; vertical-align: top; width: 20%; margin-right: 15%; }
+
+    .titulo-principal {padding-left: 20px;}
+    
 
      </style>
 
@@ -29,11 +36,21 @@
   </head>
  
   <body>
+
+
+  <header>
+    
+  <h1 class="titulo-principal">Barbearia Alura</h1>
+
+
+  </header>
+
+
   <img id="banner" src="banner.jpg">
   
   <div class="principal">
    	
-  	<h1 style="text-align: center;background: #CCCCCC;">Sobre a Barbearia Alura</h1>
+  	<h2 style="text-align: center;background: #CCCCCC;" class="titulo-centralizado">Sobre a Barbearia Alura</h2>
 
   	<p style="text-align: center;">Localizada no coração da cidade a <strong>Barbearia</strong> Alura traz para o mercado o que há de melhor para o seu cabelo e barba. 
   	 
@@ -50,7 +67,7 @@
 
   <div class="Beneficios">
 
-  <h2>Beneficios</h2>	
+  <h3 class="titulo-centralizado">Beneficios</h3>	
   
   <ul>
     <li class="itens">Atendimento ao cliente </li>
@@ -59,7 +76,7 @@
     <li class="itens">  Profissionais Qualificados</li>
  </ul>
 
- <img src="beneficios.jpg">
+ <img src="beneficios.jpg" class="imagembeneficios">
 
   </div>
 
